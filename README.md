@@ -1,2 +1,1 @@
-# gradu-project
-Detecting Broken Plural Words Using AI Model
+ضع ملفات React هنا. اربطها بـ http://localhost:5000/api/classify

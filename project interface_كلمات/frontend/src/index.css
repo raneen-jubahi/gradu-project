@@ -1,0 +1,26 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🖋️ يمكنك إضافة تخصيصات أخرى هنا إذا أردت */
+body {
+  @apply bg-amber-50 text-yellow-900 leading-relaxed;
+  direction: rtl;
+  background-color: lightgray;
+
+  text-align: right;
+}
+
+/* مثال لتخصيص جدول النتائج */
+table {
+  @apply w-full border-collapse mt-4;
+}
+th, td {
+  @apply border px-4 py-2;
+}
+
+/* تحسين حقل الإدخال */
+textarea {
+  @apply rounded border border-yellow-400 p-2 focus:outline-none focus:ring-2 focus:ring-yellow-600;
+}

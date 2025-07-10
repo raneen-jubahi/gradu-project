@@ -54,15 +54,15 @@ The system supports:
 ```bash
 git clone https://github.com/raneen-jubahi/gradu-project.git
 cd gradu-project
-##Setup Flask App
+### 2. Setup Flask App
 cd flask-app
 pip install -r requirements.txt
 python app.py
-## Setup React App
+### 3. Setup React App
 cd react-app
 npm install
 npm start
-##Run Streamlit App (Sentence-level)
+### 4. Run Streamlit App (Sentence-level)
 cd streamlit-app
 streamlit run app.py
 📈 Results
